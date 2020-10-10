@@ -162,4 +162,8 @@ public final class PluginDependencyManager
                         .collect(Collectors.toList())
         );
     }
+
+    public Set<Artifact> getRequiredDependencies() {
+        return requiredDependencies;
+    }
 }
